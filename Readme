@@ -1,0 +1,27 @@
+Openchat.ai
+Multi-tenancy is a design pattern that is particularly valuable for applications that serve multiple clients, organizations, or user groups, each with distinct data and requirements. 
+By implementing multi-tenancy, our application can efficiently manage these distinct datasets within the same codebase and infrastructure.
+
+Local Development Environment /Clone the Repository:
+To set up the environment for both Docker and the local machine, you can use the following instructions:
+
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+Install Dependencies:
+
+Implementation in Django
+pip install django
+Create a Django Project:
+
+Copy code
+django-admin startproject projectname
+The multi-tenancy feature was implemented in Django using the following techniques and libraries:
+
+
+
+Docker Development Environment:
+git clone <https://github.com/Alkahere/Openchatai>
+cd <https://github.com/Alkahere/Openchatai>
+Configure Docker Compose:
+
+Create a docker-compose.yml file in your project directory and define your Django application and database services
